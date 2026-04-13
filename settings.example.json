@@ -1,0 +1,5 @@
+{
+  "ai_provider": "openai",
+  "notifications": true,
+  "proxy_source": "pool"
+}
