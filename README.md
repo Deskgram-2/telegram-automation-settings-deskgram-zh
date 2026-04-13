@@ -29,6 +29,14 @@
 3. 需要时添加 API Key 和 AI 提供商。
 4. 在启动执行模块前保存整套基础配置。
 
+## 哪些执行模块最依赖这些设置
+
+- [神经评论](https://github.com/Deskgram-2/telegram-neuro-commenting-deskgram-zh)，当 AI 提供商和系统级参数会直接影响执行时；
+- [私信群发](https://github.com/Deskgram-2/telegram-direct-messaging-deskgram-zh)，当全局行为和通知配置需要先稳定下来时；
+- [账号面板](https://github.com/Deskgram-2/telegram-account-manager-deskgram-zh)，当你先搭建基础设施层再进入执行模块时；
+- [代理管理](https://github.com/Deskgram-2/telegram-proxy-manager-deskgram-zh)，当账号网格依赖一致的环境配置时；
+- [任务管理器](https://github.com/Deskgram-2/telegram-task-manager-deskgram-zh)，当你希望控制层在执行前就已经准备完整。
+
 ## 适合在什么情况下使用
 
 - 当你第一次准备 Deskgram 2；
@@ -52,6 +60,8 @@
 - [代理管理](https://github.com/Deskgram-2/telegram-proxy-manager-deskgram-zh)
 - [账号面板](https://github.com/Deskgram-2/telegram-account-manager-deskgram-zh)
 - [神经评论](https://github.com/Deskgram-2/telegram-neuro-commenting-deskgram-zh)
+- [私信群发](https://github.com/Deskgram-2/telegram-direct-messaging-deskgram-zh)
+- [任务管理器](https://github.com/Deskgram-2/telegram-task-manager-deskgram-zh)
 
 ## FAQ
 
