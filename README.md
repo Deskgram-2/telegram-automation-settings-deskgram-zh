@@ -54,6 +54,22 @@
 | 通知和行为设置彼此割裂 | 共享配置被集中管理 |
 | 长期很难保持配置有序 | 设置模块帮助系统保持稳定 |
 
+## 适用场景
+
+- 第一次搭建 Deskgram 2 系统环境，在基础设施和执行模块启动前完成全局准备；
+- 在 [神经评论](https://github.com/Deskgram-2/telegram-neuro-commenting-deskgram-zh) 和其他 AI 工作流之前接入 AI 提供商；
+- 在大型活动前统一环境、通知和 API 就绪状态；
+- 当多个操作者或模块共用同一套程序时，用设置模块保持系统一致性。
+
+## 该选哪个：设置还是账号面板
+
+| 如果你的目标是 | 更适合哪个 |
+|---|---|
+| 准备 API Key、全局行为和系统参数 | `设置` |
+| 整理 Telegram 账号基础 | [账号面板](https://github.com/Deskgram-2/telegram-account-manager-deskgram-zh) |
+| 在启动前检查整个平台是否已准备好 | `设置` |
+| 按具体工作流整理账号 | [账号面板](https://github.com/Deskgram-2/telegram-account-manager-deskgram-zh) |
+
 ## 相关仓库
 
 - [Deskgram 2 中文总览](https://github.com/Deskgram-2/deskgram-2-telegram-automation-zh)
